@@ -10,7 +10,7 @@ import {
 } from "@remix-run/react";
 
 export const links: LinksFunction = () => [
-  ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
+  ...(cssBundleHref ? [{ rel: "styleshe et", href: cssBundleHref }] : []),
 ];
 
 export default function App() {
